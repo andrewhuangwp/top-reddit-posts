@@ -42,12 +42,15 @@ class App extends React.Component {
       <div className="App">
         <h1>Find Top Posts from Reddit</h1>
         <div className="row">
-          <label>Enter Number of Posts to Display:</label>
+          <label placeholder="Only positive integers are allowed.">
+            Enter Number of Posts to Display:
+          </label>
           <div className="form-group">
             <input
-              type="text"
+              type="number"
               value={this.state.numPosts}
               onChange={this.handleNumPosts}
+              min = "1"
             />
           </div>
         </div>
@@ -78,7 +81,9 @@ class App extends React.Component {
         <button
           onClick={this.resetForm}
           style={{ visibility: this.state.isSubmitted ? "visible" : "hidden" }}
-        >Reset</button>
+        >
+          Reset
+        </button>
       </div>
     );
   }
@@ -133,7 +138,8 @@ class FetchReddit extends React.Component {
       return (
         <div>
           <h2>
-            Displaying Top {this.numPosts} Posts from r/{this.subreddit} of All Time
+            Displaying Top {this.numPosts} Posts from r/{this.subreddit} of All
+            Time
           </h2>
           <div className="RedditContainer">
             <ol type="1">
