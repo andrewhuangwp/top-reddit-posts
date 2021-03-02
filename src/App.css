@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+.App {
+  text-align: center;
+  font-family: 'Open Sans';
+}
+
+input {
+  width:100%;
+}
+
+
+
+
+
+.row {
+  text-align: start;
+  margin-left: 30%;
+  width: 40%;
+  margin-top: 1rem;
+}
+
+button {
+  font-size: 18px;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #494949 !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #ffffff;
+  padding: 5px 10px;
+  border: 1px solid #494949 !important;
+  transition: all 0.4s ease 0s;
+}
+
+button:hover:enabled {
+  color: #ffffff !important;
+  background: #3b92f6;
+  border-color: #3b92f6 !important;
+  transition: all 0.4s ease 0s;
+}
+
+button:disabled {
+  opacity: 0.3;
+}
+
+
+.ErrorMessage {
+  margin-top: 1rem;
+}
+
+.RedditContainer {
+  width: 80%;
+  text-align: left;
+  margin-left: 10%;
+}
+
+.RedditContainer .ErrorMessage{
+  text-align: center;
+}
