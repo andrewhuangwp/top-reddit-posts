@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Top Reddit Posts
+
+Simple webapp that displays the top reddit posts of all time from the inputted subreddit.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
