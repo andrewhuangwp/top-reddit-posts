@@ -49,9 +49,9 @@ button:disabled {
 }
 
 .RedditContainer {
-  width: 80%;
+  width: 50%;
   text-align: left;
-  margin-left: 10%;
+  margin-left: 25%;
 }
 
 .RedditContainer .ErrorMessage{
