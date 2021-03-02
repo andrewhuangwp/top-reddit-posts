@@ -9,7 +9,9 @@ This webapp was created using React.js. The user can enter two inputs which beco
 ## Launching Application Locally
 
 After cloning the repository, run:
+```
     npm install
     npm start
+```
 and the application should be running on http://localhost:3000/.
 
